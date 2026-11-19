@@ -36,7 +36,7 @@ public class Main extends GameApp {
         textSize(20);
         text("Click the canvas, then hold the arrow keys.", 20, 30);
         text("Score: " + points, 20, 60);
-        for (Coin each : coins) each.draw(this);
+        coin.draw(this);
         player.draw(this);
     }
 
